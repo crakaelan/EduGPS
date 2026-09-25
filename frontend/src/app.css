@@ -1,5 +1,8 @@
-:root { font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; color: #17201c; background: #f3f0e9; font-synthesis: none; text-rendering: optimizeLegibility; }
+:root { font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; color: #000; background: #faf6ef; font-synthesis: none; text-rendering: optimizeLegibility; }
 * { box-sizing: border-box; }
-body { min-width: 320px; min-height: 100vh; margin: 0; background: linear-gradient(rgba(28,45,38,.035) 1px, transparent 1px), #f3f0e9; background-size: 100% 32px; }
+body { min-width: 320px; min-height: 100vh; margin: 0; background: linear-gradient(rgba(110,85,50,.035) 1px, transparent 1px), #faf6ef; background-size: 100% 32px; }
 button, input { font: inherit; }
-button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid rgba(47,91,70,.25); outline-offset: 3px; }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid rgba(110,85,50,.25); outline-offset: 3px; }
+
+:root { --surface-beige: #faf6ef; --accent-beige: #d7c3a3; --border-beige: #baa88d; --text-ink: #000; }
+input::placeholder, textarea::placeholder { color: #000; opacity: 1; }
