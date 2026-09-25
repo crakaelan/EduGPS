@@ -1,0 +1,8 @@
+# Direct runtime dependencies. requirements-lock.txt records the tested environment.
+fastapi
+uvicorn
+requests
+torch
+sentence-transformers
+scikit-learn
+scipy
