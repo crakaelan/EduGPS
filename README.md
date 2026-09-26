@@ -1,4 +1,6 @@
-# EduGPS
+# University of London — CM3070 Final Project Submission
+
+## EduGPS
 
 EduGPS recommends books for a topic and builds a four-book learning route from a selected foundation. The Python/FastAPI backend uses sentence embeddings and cosine similarity; the Svelte frontend supports book replacement and query-specific feedback.
 
